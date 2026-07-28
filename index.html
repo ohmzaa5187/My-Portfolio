@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Kittisak Satitkulrat | IT Internship Portfolio</title>
+<meta name="description" content="Portfolio ของกิตติศักดิ์ สถิตย์กุลรัตน์ นักศึกษาสาขาเทคโนโลยีสารสนเทศ - Cloud, DevOps &amp; Web Development" />
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- Navbar -->
+<header class="navbar" id="navbar">
+  <div class="nav-container">
+    <a href="#home" class="nav-logo">KS<span>.</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="nav-link active" data-section="home">หน้าแรก</a>
+      <a href="#about" class="nav-link" data-section="about">เกี่ยวกับผม</a>
+      <a href="#education" class="nav-link" data-section="education">การศึกษา</a>
+      <a href="#skills" class="nav-link" data-section="skills">ทักษะ</a>
+      <a href="#projects" class="nav-link" data-section="projects">โปรเจกต์</a>
+      <a href="#design" class="nav-link" data-section="design">UI/UX Design</a>
+      <a href="#activities" class="nav-link" data-section="activities">กิจกรรม</a>
+      <a href="#certificates" class="nav-link" data-section="certificates">Certificates</a>
+      
+    </nav>
+    <a href="#contact" class="btn btn-small nav-cta">ติดต่อผม</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="container hero-container">
+      <div class="hero-intro">
+        <p class="hero-eyebrow" data-reveal>เปิดรับโอกาสฝึกงาน / สหกิจศึกษา</p>
+        <h1 class="hero-title" data-reveal>
+          สวัสดีครับ ผม <span class="accent-text">Kittisak Satitkulrat</span>
+        </h1>
+        <p class="hero-role" data-reveal>Cloud &amp; DevOps Enthusiast · Full-Stack Web Developer</p>
+        <p class="hero-desc" data-reveal>
+          นักศึกษาชั้นปีที่ 4 สาขาเทคโนโลยีสารสนเทศ คณะเทคโนโลยีสารสนเทศและนวัตกรรม มหาวิทยาลัยกรุงเทพ
+          สนใจด้าน Cloud Architecture, DevOps และ Web Development มีประสบการณ์สร้างระบบ AWS Serverless,
+          Docker, Linux และพัฒนา Full-Stack Web Application จริง
+        </p>
+        <div class="hero-actions" data-reveal>
+          <a href="#contact" class="btn btn-primary"><i class="fa-solid fa-paper-plane"></i> ติดต่อผม</a>
+          <a href="#projects" class="btn btn-outline"><i class="fa-solid fa-diagram-project"></i> ดูผลงาน</a>
+        </div>
+        <div class="hero-stats" data-reveal>
+          <div class="hero-stat"><span class="stat-num">3.54</span><span class="stat-label">GPA</span></div>
+          <div class="hero-stat"><span class="stat-num">3+</span><span class="stat-label">Web Projects</span></div>
+          <div class="hero-stat"><span class="stat-num">6</span><span class="stat-label">Certificates</span></div>
+        </div>
+        <div class="hero-socials" data-reveal>
+          <a href="https://github.com/ohmzaa5187" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="mailto:kittisak.sati@bumail.net" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          <a href="tel:0994952227" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
+        </div>
+      </div>
+      <div class="hero-photo" data-reveal>
+        <div class="hero-photo-frame">
+          <img src="assets/profile-photo.jpg" alt="Kittisak Satitkulrat profile photo" loading="lazy" onerror="this.closest('.hero-photo-frame').classList.add('img-error')" />
+          <div class="hero-photo-fallback"><i class="fa-solid fa-user"></i></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <p class="section-tag" data-reveal>👨‍💻 About Me</p>
+      <h2 class="section-title" data-reveal>เกี่ยวกับผม</h2>
+      <div class="about-grid">
+        <div class="about-text" data-reveal>
+          <p>
+            สวัสดีครับ ผม <strong>กิตติศักดิ์ สถิตย์กุลรัตน์</strong> นักศึกษาชั้นปีที่ 4 สาขาเทคโนโลยีสารสนเทศ
+            คณะเทคโนโลยีสารสนเทศและนวัตกรรม มหาวิทยาลัยกรุงเทพ มีความสนใจด้าน
+            <strong> Cloud Architecture, DevOps</strong> และ <strong>Web Development</strong>
+            มีประสบการณ์ลงมือสร้างระบบ AWS Serverless, Docker, Linux และพัฒนา Full-Stack Web Application
+            (Frontend/Backend) รวมถึงการประเมินความเสี่ยงความปลอดภัย IP
+          </p>
+          <p>
+            มีทักษะการเป็นผู้นำ วางแผน และบริหารจัดการงานกลุ่มอย่างเป็นระบบ
+            พร้อมเปิดรับการเรียนรู้และสร้างประโยชน์ให้แก่ทีมครับ
+          </p>
+          <div class="about-highlights">
+            <div class="highlight-item"><i class="fa-solid fa-cloud-arrow-up"></i><span>Cloud Architecture</span></div>
+            <div class="highlight-item"><i class="fa-solid fa-code-branch"></i><span>DevOps</span></div>
+            <div class="highlight-item"><i class="fa-solid fa-laptop-code"></i><span>Full-Stack Web Dev</span></div>
+            <div class="highlight-item"><i class="fa-solid fa-shield-halved"></i><span>Security Assessment</span></div>
+            <div class="highlight-item"><i class="fa-solid fa-users"></i><span>Team Leadership</span></div>
+          </div>
+        </div>
+        <div class="about-card" data-reveal>
+          <div class="info-row"><i class="fa-solid fa-user"></i><div><span>ชื่อ-สกุล</span><p>กิตติศักดิ์ สถิตย์กุลรัตน์</p></div></div>
+          <div class="info-row"><i class="fa-solid fa-graduation-cap"></i><div><span>สถานะ</span><p>นักศึกษาชั้นปีที่ 4</p></div></div>
+          <div class="info-row"><i class="fa-solid fa-building-columns"></i><div><span>มหาวิทยาลัย</span><p>มหาวิทยาลัยกรุงเทพ</p></div></div>
+          <div class="info-row"><i class="fa-solid fa-location-dot"></i><div><span>ประเทศ</span><p>ประเทศไทย</p></div></div>
+          <div class="info-row"><i class="fa-solid fa-envelope"></i><div><span>อีเมล</span><p>kittisak.sati@bumail.net</p></div></div>
+          <a href="#contact" class="btn btn-primary btn-full"><i class="fa-solid fa-paper-plane"></i> ติดต่อร่วมงาน</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section section-alt" id="education">
+    <div class="container">
+      <p class="section-tag" data-reveal>🎓 Education</p>
+      <h2 class="section-title" data-reveal>การศึกษา</h2>
+      <div class="timeline">
+        <div class="timeline-item" data-reveal>
+          <div class="timeline-dot"><i class="fa-solid fa-building-columns"></i></div>
+          <div class="timeline-content">
+            <span class="timeline-badge">ปัจจุบัน · ชั้นปีที่ 4</span>
+            <h3>Bangkok University</h3>
+            <p>คณะเทคโนโลยีสารสนเทศและนวัตกรรม สาขาเทคโนโลยีสารสนเทศ</p>
+            <div class="gpa-chip"><i class="fa-solid fa-star"></i> GPA 3.54</div>
+          </div>
+        </div>
+        <div class="timeline-item" data-reveal>
+          <div class="timeline-dot"><i class="fa-solid fa-school"></i></div>
+          <div class="timeline-content">
+            <span class="timeline-badge">2020 – 2022</span>
+            <h3>Thaksina Business Technological College</h3>
+            <p>สาขาวิชาเทคโนโลยีธุรกิจดิจิทัล</p>
+            <div class="gpa-chip"><i class="fa-solid fa-star"></i> GPA 3.44</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="container">
+      <p class="section-tag" data-reveal>🛠️ Skills</p>
+      <h2 class="section-title" data-reveal>ทักษะความสามารถ</h2>
+      <div class="skills-grid">
+
+        <div class="skill-card" data-reveal>
+          <div class="skill-icon"><i class="fa-solid fa-cloud"></i></div>
+          <h3>Cloud &amp; Infrastructure</h3>
+          <div class="tag-list">
+            <span class="tag">AWS S3</span><span class="tag">Lambda</span><span class="tag">DynamoDB</span>
+            <span class="tag">Amazon SNS</span><span class="tag">IAM / LabRole</span><span class="tag">Docker</span>
+            <span class="tag">Linux (Ubuntu)</span><span class="tag">Serverless Architecture</span>
+            <span class="tag">Static Website Hosting</span><span class="tag">Event-Driven Triggers</span>
+            <span class="tag">CORS Policy</span>
+          </div>
+        </div>
+
+        <div class="skill-card" data-reveal>
+          <div class="skill-icon"><i class="fa-solid fa-code"></i></div>
+          <h3>Web Development &amp; Design</h3>
+          <div class="tag-list">
+            <span class="tag">Figma</span><span class="tag">Wireframing</span><span class="tag">HTML5</span>
+            <span class="tag">CSS3</span><span class="tag">JavaScript</span><span class="tag">Bootstrap</span>
+            <span class="tag">Python 3.12</span><span class="tag">Node.js</span><span class="tag">REST API</span>
+            <span class="tag">DynamoDB (NoSQL)</span>
+          </div>
+        </div>
+
+        <div class="skill-card" data-reveal>
+          <div class="skill-icon"><i class="fa-solid fa-shield-halved"></i></div>
+          <h3>Cybersecurity &amp; Systems</h3>
+          <div class="tag-list">
+            <span class="tag">IP Scanning</span><span class="tag">Vulnerability Assessment</span>
+            <span class="tag">Risk Assessment</span><span class="tag">Bucket Policy</span>
+            <span class="tag">IAM Roles &amp; Permissions</span>
+          </div>
+        </div>
+
+        <div class="skill-card" data-reveal>
+          <div class="skill-icon"><i class="fa-solid fa-toolbox"></i></div>
+          <h3>Tools &amp; Environments</h3>
+          <div class="tag-list">
+            <span class="tag">AWS CLI</span><span class="tag">Postman</span><span class="tag">VS Code</span>
+            <span class="tag">Git / GitHub</span><span class="tag">Figma</span>
+          </div>
+        </div>
+
+        <div class="skill-card" data-reveal>
+          <div class="skill-icon"><i class="fa-solid fa-people-group"></i></div>
+          <h3>Soft Skills</h3>
+          <div class="tag-list">
+            <span class="tag">Team Leadership</span><span class="tag">Task Delegation</span>
+            <span class="tag">Project Planning</span><span class="tag">Problem Solving</span>
+            <span class="tag">Communication</span><span class="tag">Adaptive Learning</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section section-alt" id="projects">
+    <div class="container">
+      <p class="section-tag" data-reveal>🚀 Projects</p>
+      <h2 class="section-title" data-reveal>Web &amp; Cloud Projects</h2>
+
+      <div class="project-card" data-reveal>
+        <div class="project-visual media-frame proj-esports">
+          <img src="assets/project-esports-screenshot.png" alt="E-Sports Tournament Registration System screenshot" loading="lazy" onerror="this.closest('.media-frame').classList.add('img-error')" />
+          <div class="media-fallback"><i class="fa-solid fa-trophy"></i></div>
+        </div>
+        <div class="project-body">
+          <div class="project-meta">
+            <span class="meta-chip"><i class="fa-solid fa-layer-group"></i> Web App / Admin Dashboard</span>
+            <span class="meta-chip"><i class="fa-solid fa-user-tie"></i> Full-Stack Developer &amp; UI/UX Designer</span>
+          </div>
+          <h3>1. E-Sports Tournament Registration System</h3>
+          <p>
+            เว็บแอปพลิเคชันสำหรับจัดการระบบรับสมัครการแข่งขันอีสปอร์ต (ROV &amp; Valorant) ที่ช่วยอำนวยความสะดวก
+            ให้ผู้สมัครลงทะเบียน คำนวณราคาค่าสมัครอัตโนมัติ และชำระเงินผ่าน QR Code พร้อมระบบ Admin Dashboard
+            สำหรับผู้ดูแลระบบในการจัดการข้อมูลทีมและสรุปรายงานยอดเงินรายได้
+          </p>
+          <ul class="feature-list">
+            <li><i class="fa-solid fa-check"></i> Registration &amp; Auto-Calculation ระบบลงทะเบียนพร้อมคำนวณค่าสมัครอัตโนมัติ</li>
+            <li><i class="fa-solid fa-check"></i> Payment Integration รองรับการชำระเงินผ่าน QR Code</li>
+            <li><i class="fa-solid fa-check"></i> Admin Dashboard สรุปรายงานรายได้และบริหารจัดการรายชื่อทีม</li>
+          </ul>
+          <div class="tag-list">
+            <span class="tag tag-tech">Figma</span><span class="tag tag-tech">HTML5</span>
+            <span class="tag tag-tech">CSS3</span><span class="tag tag-tech">Bootstrap</span>
+            <span class="tag tag-tech">JavaScript</span><span class="tag tag-tech">Node.js / REST API</span>
+            <span class="tag tag-tech">Database</span>
+          </div>
+          <a href="https://github.com/ohmzaa5187/E-Sports-Tournament" target="_blank" rel="noopener" class="btn btn-outline btn-small">
+            <i class="fa-brands fa-github"></i> ดูซอร์สโค้ดบน GitHub
+          </a>
+        </div>
+      </div>
+
+      <div class="project-card reverse" data-reveal>
+        <div class="project-visual media-frame proj-wallet">
+          <img src="assets/project-wallet-track-screenshot.png" alt="WALLET-TRACK expense tracker screenshot" loading="lazy" onerror="this.closest('.media-frame').classList.add('img-error')" />
+          <div class="media-fallback"><i class="fa-solid fa-wallet"></i></div>
+        </div>
+        <div class="project-body">
+          <div class="project-meta">
+            <span class="meta-chip"><i class="fa-solid fa-layer-group"></i> Cloud &amp; Serverless Web App</span>
+            <span class="meta-chip"><i class="fa-solid fa-user-tie"></i> Cloud &amp; Infrastructure / Backend Developer</span>
+          </div>
+          <h3>2. WALLET-TRACK (AWS Serverless Expense Tracker)</h3>
+          <p>
+            เว็บแอปพลิเคชันจัดการรายจ่ายและควบคุมงบประมาณ พัฒนาด้วยสถาปัตยกรรม AWS Serverless รองรับการโฮสต์บน
+            Amazon S3 Static Website ประมวลผลไฟล์ .csv อัตโนมัติด้วย AWS Lambda (Python 3.12)
+            จัดเก็บข้อมูลลง Amazon DynamoDB และมีระบบ Amazon SNS แจ้งเตือนงบประมาณเกินกำหนดเข้าอีเมลโดยตรง
+          </p>
+          <ul class="feature-list">
+            <li><i class="fa-solid fa-check"></i> Static Website Hosting บน Amazon S3 พร้อม CORS &amp; Bucket Policy</li>
+            <li><i class="fa-solid fa-check"></i> Event-Driven Automation ด้วย AWS Lambda เมื่ออัปโหลดไฟล์ .csv</li>
+            <li><i class="fa-solid fa-check"></i> NoSQL Database ออกแบบตาราง ExpenseTracker บน DynamoDB</li>
+            <li><i class="fa-solid fa-check"></i> Real-time Budget Alert แจ้งเตือนผ่าน Amazon SNS เมื่อรายจ่ายเกินยอด</li>
+          </ul>
+          <div class="tag-list">
+            <span class="tag tag-tech">Amazon S3</span><span class="tag tag-tech">AWS Lambda</span>
+            <span class="tag tag-tech">Python 3.12</span><span class="tag tag-tech">DynamoDB</span>
+            <span class="tag tag-tech">Amazon SNS</span><span class="tag tag-tech">AWS CLI</span>
+            <span class="tag tag-tech">Postman</span>
+          </div>
+          <a href="https://github.com/ohmzaa5187/wallet-track" target="_blank" rel="noopener" class="btn btn-outline btn-small">
+            <i class="fa-brands fa-github"></i> ดูซอร์สโค้ดบน GitHub
+          </a>
+        </div>
+      </div>
+
+      <div class="project-card" data-reveal>
+        <div class="project-visual media-frame proj-beefood">
+          <img src="assets/project-beefood-screenshot.png" alt="BEEFOOD online food ordering website screenshot" loading="lazy" onerror="this.closest('.media-frame').classList.add('img-error')" />
+          <div class="media-fallback"><i class="fa-solid fa-bowl-food"></i></div>
+        </div>
+        <div class="project-body">
+          <div class="project-meta">
+            <span class="meta-chip"><i class="fa-solid fa-layer-group"></i> Web Application</span>
+            <span class="meta-chip"><i class="fa-solid fa-user-tie"></i> Frontend Developer</span>
+          </div>
+          <h3>3. เว็บไซต์สั่งอาหารออนไลน์ (BEEFOOD)</h3>
+          <p>
+            พัฒนาเว็บไซต์สั่งอาหารออนไลน์ด้วย HTML, CSS โดยออกแบบให้ผู้ใช้สามารถเลือกเมนู เพิ่มสินค้าในตะกร้า
+            และสั่งซื้อได้อย่างสะดวก พร้อมรองรับการแสดงผลบนอุปกรณ์ที่หลากหลาย
+          </p>
+          <ul class="feature-list">
+            <li><i class="fa-solid fa-check"></i> เลือกเมนูอาหารได้หลากหลายพร้อมรายละเอียดสินค้า</li>
+            <li><i class="fa-solid fa-check"></i> ระบบตะกร้าสินค้า (Add to Cart) เพิ่ม/ลดจำนวนได้สะดวก</li>
+            <li><i class="fa-solid fa-check"></i> ขั้นตอนสั่งซื้อที่ใช้งานง่าย ไม่ซับซ้อน</li>
+            <li><i class="fa-solid fa-check"></i> Responsive Design รองรับการแสดงผลบนอุปกรณ์ที่หลากหลาย</li>
+          </ul>
+          <div class="tag-list">
+            <span class="tag tag-tech">HTML5</span><span class="tag tag-tech">CSS3</span>
+          </div>
+          <a href="https://github.com/ohmzaa5187/beefood" target="_blank" rel="noopener" class="btn btn-outline btn-small">
+            <i class="fa-brands fa-github"></i> ดูซอร์สโค้ดบน GitHub
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- UI/UX DESIGN -->
+  <section class="section" id="design">
+    <div class="container">
+      <p class="section-tag" data-reveal>🎨 UI/UX Design Portfolio (Figma)</p>
+      <h2 class="section-title" data-reveal>ผลงานออกแบบ UI/UX</h2>
+      <p class="section-sub" data-reveal>
+        เน้นการออกแบบประสบการณ์ผู้ใช้ (User Experience) และอินเทอร์เฟซ (User Interface)
+        โดยคำนึงถึงความสวยงามและการใช้งานจริง
+      </p>
+      <div class="design-grid">
+
+        <div class="design-card" data-reveal>
+          <div class="design-thumb media-frame thumb-ecommerce">
+            <img src="assets/design-ecommerce-clothing.png" alt="E-Commerce Clothing Store UI design" loading="lazy" onerror="this.closest('.media-frame').classList.add('img-error')" />
+            <div class="media-fallback"><i class="fa-solid fa-shirt"></i></div>
+          </div>
+          <div class="design-body">
+            <h3>👕 E-Commerce Clothing Store</h3>
+            <p>ออกแบบโครงร่างและหน้าตาเว็บไซต์ร้านค้าออนไลน์ เน้นความสบายตาและกระบวนการสั่งซื้อที่ใช้งานง่าย</p>
+            <a href="https://www.figma.com/design/N4HYjJ2z8w50hp8iKotw4U/Untitled?node-id=1-2&t=S0ngvBK2TMCEHIWx-1" class="link-arrow">ดูผลงาน Figma <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="design-card" data-reveal>
+          <div class="design-thumb media-frame thumb-parking">
+            <img src="assets/design-campus-parking.png" alt="Campus Smart Parking System UI flow" loading="lazy" onerror="this.closest('.media-frame').classList.add('img-error')" />
+            <div class="media-fallback"><i class="fa-solid fa-square-parking"></i></div>
+          </div>
+          <div class="design-body">
+            <h3>🚗 Campus Smart Parking System</h3>
+            <p>ออกแบบระบบช่วยค้นหาและจองที่จอดรถภายในมหาวิทยาลัย เพื่อแก้ปัญหาความหนาแน่นของการจอดรถ</p>
+            <a href="https://www.figma.com/proto/Ubl62KiAt5NiPWCs19ybrB/totoandtietie?node-id=171-473&t=LayFxggMdmUcCOJn-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=55%3A79&show-proto-sidebar=1" class="link-arrow">ดูผลงาน Figma <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="design-card" data-reveal>
+          <div class="design-thumb media-frame thumb-dailyui">
+            <img src="assets/design-daily-ui-challenge.png" alt="Daily UI 10 Days Challenge overview" loading="lazy" onerror="this.closest('.media-frame').classList.add('img-error')" />
+            <div class="media-fallback"><i class="fa-solid fa-calendar-days"></i></div>
+          </div>
+          <div class="design-body">
+            <h3>📅 Daily UI 10 Days Challenge</h3>
+            <p>โปรเจกต์ฝึกฝนทักษะการออกแบบองค์ประกอบ UI ประเภทต่างๆ (Form, Button, Dashboard, Mobile Screen) ต่อเนื่อง 10 วัน</p>
+            <a href="https://www.figma.com/design/c6A6w3jWerlzfoa8dBBXlU/UI-UX-Kittisak?node-id=0-1&t=mDN0tnYoJTmXLSJz-1" class="link-arrow">ดูผลงาน Figma <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ACTIVITIES -->
+  <section class="section section-alt" id="activities">
+    <div class="container">
+      <p class="section-tag" data-reveal>🎯 Activities &amp; Experiences</p>
+      <h2 class="section-title" data-reveal>กิจกรรมและประสบการณ์</h2>
+      <div class="activity-grid">
+
+        <div class="activity-card" data-reveal>
+          <div class="activity-icon"><i class="fa-solid fa-shield-halved"></i></div>
+          <h3>🛡️ Cybersecurity Day &amp; IT Empowering (Mini Job Fair)</h3>
+          <p><strong>Highlights:</strong> เข้าร่วมกิจกรรมสร้างเครือข่ายทางอาชีพ (Networking) ร่วมกับบริษัทชั้นนำในอุตสาหกรรม Tech</p>
+          <p><strong>Key Takeaways:</strong> รับฟัง Insights แนวโน้มตลาดแรงงานสายไอที พร้อมปรึกษาแนวทางการพัฒนาทักษะให้ตรงกับความต้องการขององค์กรยุคใหม่</p>
+        </div>
+
+        <div class="activity-card" data-reveal>
+          <div class="activity-icon"><i class="fa-solid fa-landmark"></i></div>
+          <h3>🏛️ BU Cyber Fortress Challenge &amp; Career Expo</h3>
+          <p><strong>Highlights:</strong> ร่วมแลกเปลี่ยนมุมมองและรับฟังคำแนะนำโดยตรงจากผู้เชี่ยวชาญและฝ่าย HR ขององค์กรไอทีชั้นนำ</p>
+          <p><strong>Key Takeaways:</strong> เรียนรู้คุณสมบัติและ Requirements จริงในการสมัครงานสาย Cloud/Security เพื่อเตรียมความพร้อมก่อนออกฝึกงานและสหกิจศึกษา</p>
+        </div>
+
+        <div class="activity-card" data-reveal>
+          <div class="activity-icon"><i class="fa-solid fa-robot"></i></div>
+          <h3>🤖 IT Empowering Day: In the Era of AI</h3>
+          <p><strong>Highlights:</strong> เข้าร่วมงานสัมมนาและนิทรรศการส่งเสริมศักยภาพด้านเทคโนโลยีปัญญาประดิษฐ์ (AI)</p>
+          <p><strong>Key Takeaways:</strong> ศึกษาการนำ AI และ Automation มาประยุกต์ใช้ในภาคอุตสาหกรรมจริง เพื่ออัปเดตทักษะไอทีให้ทันต่อการเปลี่ยนแปลงแห่งอนาคต</p>
+        </div>
+
+      </div>
+
+      <div class="activity-gallery" data-reveal>
+        <div class="gallery-item media-frame">
+          <img src="assets/activity-jobfair-booth.jpg" alt="Cybersecurity Day & IT Empowering Mini Job Fair booth" loading="lazy" onerror="this.closest('.media-frame').classList.add('img-error')" />
+          <div class="media-fallback"><i class="fa-solid fa-people-group"></i><span>Mini Job Fair</span></div>
+        </div>
+        <div class="gallery-item media-frame">
+          <img src="assets/activity-career-expo.png" alt="BU Cyber Fortress Challenge & Career Expo" loading="lazy" onerror="this.closest('.media-frame').classList.add('img-error')" />
+          <div class="media-fallback"><i class="fa-solid fa-landmark"></i><span>Career Expo</span></div>
+        </div>
+        <div class="gallery-item media-frame">
+          <img src="assets/activity-ai-day.jpg" alt="IT Empowering Day: In the Era of AI 2026" loading="lazy" onerror="this.closest('.media-frame').classList.add('img-error')" />
+          <div class="media-fallback"><i class="fa-solid fa-robot"></i><span>IT Empowering Day: AI</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section class="section" id="certificates">
+    <div class="container">
+      <p class="section-tag" data-reveal>📜 Certifications &amp; Certificates</p>
+      <h2 class="section-title" data-reveal>ใบรับรองและประกาศนียบัตร</h2>
+
+      <h3 class="cert-group-title" data-reveal><i class="fa-solid fa-shield-halved"></i> Cybersecurity &amp; National Competitions</h3>
+      <div class="cert-grid">
+        <div class="cert-card" data-reveal>
+          <div class="cert-top"><i class="fa-solid fa-certificate"></i></div>
+          <h4>Cybersecurity Foundation Course</h4>
+          <p class="cert-issuer">Issued by: สกมช. (NCSA) &amp; THNCA</p>
+          <p class="cert-detail">สำเร็จการอบรมหลักสูตรความมั่นคงปลอดภัยไซเบอร์ระดับพื้นฐาน (21 ชั่วโมง)</p>
+        </div>
+        <div class="cert-card" data-reveal>
+          <div class="cert-top"><i class="fa-solid fa-award"></i></div>
+          <h4>Thailand Cyber Top Talent 2023</h4>
+          <p class="cert-issuer">Issued by: NCSA (สกมช.) &amp; HUAWEI</p>
+          <p class="cert-detail">Member of Team ZeroDayZephyrs (Representing Bangkok University) — เข้าร่วมการแข่งขันประเมินทักษะด้าน Cybersecurity ระดับประเทศ</p>
+        </div>
+      </div>
+
+      <h3 class="cert-group-title" data-reveal><i class="fa-solid fa-code"></i> Web Development &amp; Programming</h3>
+      <div class="cert-grid">
+        <div class="cert-card" data-reveal>
+          <div class="cert-top"><i class="fa-brands fa-css3-alt"></i></div>
+          <h4>CSS Skill Assessment</h4>
+          <p class="cert-issuer">Issued by: HackerRank</p>
+          <p class="cert-detail">ผ่านการทดสอบประเมินทักษะการเขียน CSS ในระดับมาตรฐาน</p>
+        </div>
+        <div class="cert-card" data-reveal>
+          <div class="cert-top"><i class="fa-brands fa-html5"></i></div>
+          <h4>HTML Course</h4>
+          <p class="cert-issuer">Issued by: Sololearn</p>
+          <p class="cert-detail">สำเร็จการศึกษาหลักสูตรทฤษฎีและการพัฒนาเว็บด้วย HTML</p>
+        </div>
+        <div class="cert-card" data-reveal>
+          <div class="cert-top"><i class="fa-solid fa-laptop-code"></i></div>
+          <h4>DevLab 3 Open Access Program</h4>
+          <p class="cert-issuer">Issued by: borntoDev</p>
+          <p class="cert-detail">ผ่านการทดสอบแก้โจทย์การเขียนโปรแกรม (Rank 3,232 จาก 15,475 คน)</p>
+        </div>
+        <div class="cert-card" data-reveal>
+          <div class="cert-top"><i class="fa-solid fa-tags"></i></div>
+          <h4>HTML Attributes and Tags</h4>
+          <p class="cert-issuer">Issued by: Great Learning Academy</p>
+          <p class="cert-detail">สำเร็จหลักสูตรการใช้งาน HTML Attributes และโครงสร้าง Tags สำหรับพัฒนาเว็บไซต์</p>
+        </div>
+      </div>
+
+      <div class="cert-gallery" data-reveal>
+        <div class="gallery-item media-frame cert-thumb">
+          <img src="assets/cert-cybersecurity-foundation.png" alt="Cybersecurity Foundation Course certificate" loading="lazy" onerror="this.closest('.media-frame').classList.add('img-error')" />
+          <div class="media-fallback"><i class="fa-solid fa-certificate"></i></div>
+        </div>
+        <div class="gallery-item media-frame cert-thumb">
+          <img src="assets/cert-thailand-cyber-top-talent.png" alt="Thailand Cyber Top Talent 2023 certificate" loading="lazy" onerror="this.closest('.media-frame').classList.add('img-error')" />
+          <div class="media-fallback"><i class="fa-solid fa-award"></i></div>
+        </div>
+        <div class="gallery-item media-frame cert-thumb">
+          <img src="assets/cert-sololearn-html.jpg" alt="Sololearn HTML course certificate" loading="lazy" onerror="this.closest('.media-frame').classList.add('img-error')" />
+          <div class="media-fallback"><i class="fa-brands fa-html5"></i></div>
+        </div>
+        <div class="gallery-item media-frame cert-thumb">
+          <img src="assets/cert-great-learning-html-tags.png" alt="Great Learning Academy HTML Attributes and Tags certificate" loading="lazy" onerror="this.closest('.media-frame').classList.add('img-error')" />
+          <div class="media-fallback"><i class="fa-solid fa-tags"></i></div>
+        </div>
+        <div class="gallery-item media-frame cert-thumb">
+          <img src="assets/cert-borntodev-devlab3.png" alt="borntoDev DevLab 3 certificate" loading="lazy" onerror="this.closest('.media-frame').classList.add('img-error')" />
+          <div class="media-fallback"><i class="fa-solid fa-laptop-code"></i></div>
+        </div>
+        <div class="gallery-item media-frame cert-thumb">
+          <img src="assets/cert-hackerrank-css.png" alt="HackerRank CSS skill certificate" loading="lazy" onerror="this.closest('.media-frame').classList.add('img-error')" />
+          <div class="media-fallback"><i class="fa-brands fa-css3-alt"></i></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <p class="section-tag" data-reveal>📞 Contact</p>
+      <h2 class="section-title" data-reveal>ติดต่อผม</h2>
+      <p class="section-sub" data-reveal>เปิดรับโอกาสฝึกงานและสหกิจศึกษาสาย Cloud / DevOps / Web Development ยินดีพูดคุยและร่วมงานครับ</p>
+
+      <div class="contact-grid">
+        <a class="contact-card" href="mailto:kittisak.sati@bumail.net" data-reveal>
+          <i class="fa-solid fa-envelope"></i>
+          <span>Email</span>
+          <p>kittisak.sati@bumail.net</p>
+        </a>
+        <a class="contact-card" href="tel:0994952227" data-reveal>
+          <i class="fa-solid fa-phone"></i>
+          <span>Phone</span>
+          <p>099-495-2227</p>
+        </a>
+        <div class="contact-card" data-reveal>
+          <i class="fa-brands fa-line"></i>
+          <span>LINE ID</span>
+          <p>ohm5187</p>
+        </div>
+        <a class="contact-card" href="https://github.com/ohmzaa5187" target="_blank" rel="noopener" data-reveal>
+          <i class="fa-brands fa-github"></i>
+          <span>GitHub</span>
+          <p>github.com/ohmzaa5187</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer-container">
+    <p>&copy; <span id="year"></span> Kittisak Satitkulrat. Built with HTML, CSS &amp; JavaScript.</p>
+    <a href="#home" class="back-to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></a>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
