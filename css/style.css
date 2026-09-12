@@ -497,6 +497,8 @@ i { line-height: 1; }
   border: 1px solid var(--border);
 }
 .proj-wallet { color: var(--dusty-blue); background: var(--dusty-blue-soft); border-color: transparent; }
+.proj-devops { color: #3d8b7a; background: rgba(61, 139, 122, 0.15); border-color: transparent; }
+.proj-devops .media-fallback { color: #3d8b7a; }
 .proj-beefood { color: var(--mustard); background: var(--mustard-soft); border-color: transparent; }
 .project-meta { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
 .meta-chip {
